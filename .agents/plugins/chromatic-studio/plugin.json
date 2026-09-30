@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chromatic-studio",
+  "version": "0.1.0",
+  "description": "Create and build original Game Boy Color homebrew for Chromatic-compatible devices.",
+  "author": {
+    "name": "Chromatic Studio Bridge contributors"
+  },
+  "license": "MIT",
+  "keywords": ["game-boy-color", "gb-studio", "homebrew", "chromatic", "codex"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Chromatic Studio Bridge",
+        "shortDescription": "Build original Game Boy Color homebrew",
+        "longDescription": "Guide Codex through creating and building original GB/GBC games with GB Studio for testing on compatible handhelds.",
+        "category": "Development",
+        "capabilities": ["coding"]
+      }
+    }
+  }
+}

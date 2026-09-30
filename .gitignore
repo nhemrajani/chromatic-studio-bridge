@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+builds/
+local-library/
+.venv/
+
+# Local credentials and secrets
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
